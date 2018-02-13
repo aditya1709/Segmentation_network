@@ -20,7 +20,7 @@ from deeplab_resnet import DeepLabResNetModel, ImageReader, decode_labels, prepa
 
 IMG_MEAN = np.array((104.00698793,116.66876762,122.67891434), dtype=np.float32)
     
-RESTORE_FROM = './snapshots_finetune4/model.ckpt-24400'
+RESTORE_FROM = './model.ckpt-24400'
 IMG = './GTA/GTA_input/Day/2.jpg'
 NUM_CLASSES = 2
 SAVE_DIR = './output/'
